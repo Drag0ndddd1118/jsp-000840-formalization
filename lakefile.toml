@@ -1,0 +1,14 @@
+name = "jsp-000840-formalization"
+defaultTargets = ["Submission"]
+
+[lean_options]
+pp.unicode.fun = true
+
+[[lean_lib]]
+name = "JSP_000840"
+
+[[lean_lib]]
+name = "Challenge"
+
+[[lean_lib]]
+name = "Submission"
